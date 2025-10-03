@@ -1,6 +1,6 @@
 // WishlistProvider.jsx
 import React, { useReducer } from "react";
-import { WishlistContext } from "../context";
+import { WishlistContext } from "../Context";
 import  WishlistReducer  from "../reducers/WishlistReducer";
 import { v4 as uuid} from 'uuid';
 
